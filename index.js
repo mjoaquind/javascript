@@ -20,17 +20,15 @@ const calcularPorcentajeJeans = (acumuladorJeans, acumuladorArticulosIndumentari
     }
 }
 
-let acumuladorArticulosIndumentaria = 0;
-let acumuladorArticulos = 0;
-let acumuladorJeans = 0;
-let totalPerfumes = 0;
-let totalRecaudado = 0;
-let masVendidoCantidad = 0;
-let masVendidoArticulo = '';
-let tiendaMasVendioMonto = 0;
-let tiendaMasVendio = '';
-
 const hotsale = () => {
+    let acumuladorArticulosIndumentaria = 0;
+    let acumuladorJeans = 0;
+    let totalPerfumes = 0;
+    let totalRecaudado = 0;
+    let masVendidoCantidad = 0;
+    let masVendidoArticulo = '';
+    let tiendaMasVendioMonto = 0;
+    let tiendaMasVendio = '';
     let tiendaNombre = prompt('Ingrese el nombre de la tienda:');
     while(tiendaNombre != '') {
         let totalRecaudadoPorTienda = 0;
